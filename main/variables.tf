@@ -1,6 +1,6 @@
 variable "rg_name" {
   description = "The Azure Region where the Resource Group should exist. Changing this forces a new Resource Group to be created."  
-  default = "techslate-ade-rg138"
+  default = "techslate-ade-rg333"
 }
 
 variable "location" {
@@ -21,14 +21,14 @@ variable "tags" {
 
 variable "kv_name" {
   description = ""
-  default = "techslate-ade-kv138"
+  default = "techslate-ade-kv333"
 }
 
 variable "fun_name" {
   description = ""
-  default = "techslate-function-138"
+  default = "techslate-function-333"
 }
 
 variable "storage_account_access_key" {
-    default = "techslate-function-138"
+    default = "techslate-function-333"
 }
